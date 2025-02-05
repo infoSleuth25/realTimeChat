@@ -12,7 +12,8 @@ Build a simple chat applications using raw websockets in Node.js that supports t
 - If chat messages reach more than 10 upvotes, alert the admin to answer.
 
 
-1> People are rate limiting : 30s - 1 msg per 30 seconds.
-2> Upvoting : Filter out questions
-
+- People are rate limiting : 30s - 1 msg per 30 seconds.
+- Upvoting : Filter out questions.
+- 10000 or greater subs : We tend to do distributed web socket server.
+- In our case it is less than 10000, we will make simple web socket server.
 
